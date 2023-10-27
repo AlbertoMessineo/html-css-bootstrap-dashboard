@@ -2,7 +2,10 @@
 @import'/css/common.css';
 
 
-
+/* DEBUG */
+.debug{
+    border: 1px solid red;
+}
 
 /**************** 
      HEADER
@@ -13,8 +16,9 @@
 
 }
 #logo-mobile{
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
+    padding: 0;
 }
 .col-small-left{
     width: 165px;
@@ -22,10 +26,18 @@
 .nav-icons{
     width: calc(100% / 4);
 }
+.fa-bell{
+    color: #ff8f00;
+}
+
+.nav-icons> .fa-solid :not(.fa-bell){
+    color: grey;
+}
 
 /*************
     MAIN
 **************/
+
 .main-container{
     height: 100vh;
     padding: 0;
@@ -50,3 +62,49 @@
     width: 100%;
     background-color: #1b72e8;
 }
+.am-page{
+    width: 100%;
+    overflow-y: scroll;
+}
+.am-piano-title{
+    color: white;
+}
+.am-bg-blue{
+    background-color: #1b72e8;
+}
+.am-piano{
+    background-color: #165bba;
+    color: white;
+}
+.am-classi{
+    width: 100%;
+}
+
+
+.am-border{
+    border: 1px solid gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/************RESPONSIVE******************/
