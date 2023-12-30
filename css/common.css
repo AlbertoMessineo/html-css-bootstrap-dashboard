@@ -7,3 +7,10 @@ a{
 *{
     list-style: none;
 }
+
+
+/* COLORI */
+.am-white{
+    color: white;
+    font-weight: 500;
+}
